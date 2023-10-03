@@ -1,0 +1,100 @@
+-- --DRINKS
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('COLA', 'DRINKS', 1, 12, 'Bautura carbogazoasa', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('COLA ZERO', 'DRINKS', 2, 12, 'Bautura carbogazoasa fara zahar', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('FANTA', 'DRINKS', 3, 13, 'Bautura racoritoare', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('APA PLATA', 'DRINKS', 4, 5, 'Apa plata', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('APA MINERALA', 'DRINKS', 5, 5, 'Apa minerala', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('PRIGAT PORTOCALE', 'DRINKS', 6, 7, 'Suc natural de portocale', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('PRIGAT MERE', 'DRINKS', 7, 7, 'Suc natural de mere', true);
+--
+-- -- PIZZA
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('PIZZA MARGHERITA', 'PIZZA', 8, 25, 'Pizza cu sos de rosii, mozzarella si busuioc', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('PIZZA DIAVOLA', 'PIZZA', 9, 28, 'Pizza picanta cu sos de rosii, mozzarella, salam si ardei iute', true);
+--
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('PIZZA PROSCIUTTO', 'PIZZA', 10, 29, 'Pizza cu sos de rosii, mozzarella si sunca de parma', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('PIZZA VEGETARIANA', 'PIZZA', 11, 27, 'Pizza cu sos de rosii, mozzarella si legume proaspete', true);
+--
+-- -- PASTE
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('PASTE CARBONARA', 'PASTE', 12, 30, 'Pasta cu sos carbonara', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('PASTE BOLOGNESE', 'PASTE', 13, 28, 'Pasta cu sos bolognese', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('PASTE ARABIATA', 'PASTE', 14, 28, 'Pasta picanta cu sos arabiata', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('PASTE CU FRUCTE DE MARE', 'PASTE', 15, 35, 'Pasta cu fructe de mare', true);
+--
+-- -- CHICKEN
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('CRISPY', 'CHICKEN', 16, 22, 'Piept de pui crispy', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('PIEPT DE PUI LA GRATAR', 'CHICKEN', 17, 23, 'Piept de pui la gratar', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('CORDON BLEU', 'CHICKEN', 18, 30, 'Cordon bleu de pui', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('SNITELE', 'CHICKEN', 19, 25, 'Snitele de pui', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('FRIGARUI DE PUI', 'CHICKEN', 20, 28, 'Frigarui de pui', true);
+--
+-- -- PORK
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('CEAFA LA GRATAR', 'PORK', 21, 32, 'Ceafa de porc la gratar', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('COSTITE LA GRATAR', 'PORK', 22, 35, 'Costite de porc la gratar', true);
+--
+-- -- SALADS
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('SALATA GRECEASCA', 'SALADS', 23, 18, 'Salata greceasca', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('SALATA CAESAR', 'SALADS', 24, 20, 'Salata Caesar', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('SALATA CU SOMON', 'SALADS', 25, 25, 'Salata cu somon', true);
+--
+-- -- DESSERT
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('PANNA COTTA', 'DESSERT', 26, 15, 'Panna Cotta', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('CHEESECAKE CU FRUCTE DE PADURE', 'DESSERT', 27, 18, 'Cheesecake cu fructe de padure', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('LAVA CAKE CU CIOCOLATA', 'DESSERT', 28, 20, 'Lava Cake cu ciocolata', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('TIRAMISU', 'DESSERT', 29, 22, 'Tiramisu', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('PAPANASI CU SMANTANA SI DULCEATA', 'DESSERT', 30, 25, 'Papanasi cu smantana si dulceata', true);
+--
+-- INSERT INTO product (name, category, image_id, price, description, available)
+-- VALUES ('CLATITE CU NUTELLA', 'DESSERT', 31, 20, 'Clatite cu Nutella', true);

@@ -1,0 +1,48 @@
+.product-space {
+    width: 100vh;
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 5px;
+}
+
+.content p {
+    font-size:15px;
+    padding:12px 8px;
+}
+.menu-container{
+    display: flex;
+}
+
+.main-img img {
+    width:250px;
+    height:190px;
+}
+
+.content-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+button {
+    background-color: pink;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.25);
+}
+

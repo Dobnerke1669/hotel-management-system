@@ -1,0 +1,33 @@
+-- INSERT INTO image_data (name, type,image_data) VALUES ('cola.jpg','image/jpeg',30692);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('colazero.jpg','image/jpeg',30693);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('fanta.jpg','image/jpeg',30694);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('apaplata.jpg','image/jpeg',30695);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('apaminerala.jpg','image/jpeg',30696);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('prigatportocale.jpg','image/jpeg',30697);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('prigatmere.jpg','image/jpeg',30698);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('pizzamargherita.jpg','image/jpeg',30699);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('pizzadiavola.jpg','image/jpeg',30700);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('pizzaprosciutto.jpg','image/jpeg',30701);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('pizzavegetariana.jpg','image/jpeg',30702);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('pastecarbonara.jpg','image/jpeg',30703);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('pastebolognese.jpg','image/jpeg',30704);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('pastearabiata.jpg','image/jpeg',30705);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('pastecufructedemare.jpg','image/jpeg',30706);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('crispy.jpg','image/jpeg',30707);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('pieptdepui.jpg','image/jpeg',30708);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('cordonbleu.jpg','image/jpeg',30709);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('snitel.jpg','image/jpeg',30710);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('frigarui.jpg','image/jpeg',30711);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('ceafa.jpg','image/jpeg',30712);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('costite.jpg','image/jpeg',30713);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('salatagreceasca.jpg','image/jpeg',30714);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('salatacaesar.jpg','image/jpeg',30715);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('salatacusomon.jpg','image/jpeg',30716);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('pannacotta.jpg','image/jpeg',30717);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('cheesecake.jpg','image/jpeg',30718);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('lavacake.jpg','image/jpeg',30719);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('tiramisu.jpg','image/jpeg',30720);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('papanasi.jpg','image/jpeg',30721);
+-- INSERT INTO image_data (name, type,image_data) VALUES ('clatite.jpg','image/jpeg',30722);
+--
+--

@@ -1,0 +1,69 @@
+.footer {
+    width: 100%;
+}
+
+.main-footer {
+    background-color: pink;
+    color: white;
+    max-width: 100%;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+h3{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: white;
+}
+
+a.text {
+    text-decoration: none;
+    color: white;
+}
+
+.photo{
+    width: 25px;
+    height: 25px;
+}
+
+.pay_method{
+    width: 50px;
+    height: 50px;
+}
+
+.col{
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.row img {
+    margin: 0 5px;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

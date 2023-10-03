@@ -1,0 +1,38 @@
+.page{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cover-addRoom{
+    background-color: white;
+    width: 30em;
+    height: 35em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+.button-add-room{
+    color: black;
+    background-color: pink;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-add-room:hover{
+    transform: scale(1.25);
+}
+.page-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

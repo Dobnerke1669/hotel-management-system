@@ -1,0 +1,49 @@
+.page{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.page-container-reservation{
+    height: 100vh;
+    width: 100%;
+}
+
+.mini-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 77vh;
+}
+
+.cover-reservation{
+    background-color: white;
+    width: 30em;
+    height: 35em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+.button-make-reservation{
+    color: black;
+    background-color: pink;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button-make-reservation:hover{
+    transform: scale(1.25);
+}
+
+.final-price{
+    font-weight: bold;
+}

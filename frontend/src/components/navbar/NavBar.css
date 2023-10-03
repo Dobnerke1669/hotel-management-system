@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Roboto Slab', serif;
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.head_container {
+    max-width: 90%;
+    margin: auto;
+}
+
+/*--------------header--------*/
+header {
+    height: 65px;
+    background-color: pink;
+    width: 100%;
+}
+
+.logo img {
+    width: 120px;
+}
+
+img{
+    width: 60px;
+    margin-top: 3px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hambuger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li {
+    margin-left: 3rem;
+}
+
+header ul li a {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+    transition: 0.5s;
+}
+
+header ul li a:hover {
+    color: #C1B086;
+}
+
+@media only screen and (max-width: 768px) {
+    header ul {
+        display: block;
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.5s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        z-index: 20;
+    }
+
+    header ul.active {
+        left: 0%;
+    }
+
+    header ul li {
+        margin: 2.5rem 0;
+    }
+
+    header ul li a {
+        color: black;
+    }
+
+    .hambuger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hambuger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hambuger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hambuger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+/*--------------header--------*/

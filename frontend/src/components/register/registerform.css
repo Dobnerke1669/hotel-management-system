@@ -1,0 +1,73 @@
+.page-container-register{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.cover{
+    background-color: white;
+    width: 30em;
+    height: 35em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.register-button{
+    width: 15em;
+    height: 3em;
+    background-color: rgb(32, 177, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+    border: none;
+}
+
+.register-button:hover{
+    transform: scale(1.25);
+}
+
+input{
+    border: none;
+    background-color: rgb(229, 226, 226);
+    height: 4em;
+    width: 80%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+}
+
+input:focus{
+    outline-color: pink;
+}
+
+.hide{
+    position: absolute;
+    transform: scale(0);
+}
+
+.register-popup{
+    position: absolute;
+    height: 30em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: whitesmoke;
+    color: gray;
+    bottom: 0;
+    transform: scale(1);
+    transition: 1.5s;
+}
